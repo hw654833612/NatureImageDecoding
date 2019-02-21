@@ -10,6 +10,8 @@ Please contact us (lembert1990@163.com) if you have trouble with the above metho
 ## Requirements
 -	tensorflow 1.4
 -	sklearn
+-	pandas
+-	seaborn
 
 ## Use
 The main function of this code is to receive the response signals of the human visual cortex to achieve the classification decoding of visual image stimulation.
