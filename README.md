@@ -29,3 +29,5 @@ The purpose of the file is to classify natural images using CNN.
 
 -	NID_utils.py
 
+The file is a function library.
+
