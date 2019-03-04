@@ -17,7 +17,7 @@ Please contact us (lembert1990@163.com) if you have trouble with the above metho
 The main function of this code is to receive the response signals of the human visual cortex to achieve the classification decoding of visual image stimulation.
 -	NID_DeepLearning-fMRI.py
 
-The purpose of the file is to decode the category information of the visual stimulus for the multi-voxel, multi-time visual cortical response signal using deep learning models (RNN, LSTM, GRU, and CNN).
+The purpose of the file is to decode the category information of the visual stimulus for the multi-voxel, multi-time visual cortical response signal using deep learning models (RNN, LSTM, GRU, and 1d-CNN).
 
 -	NID_MachineLearning-fMRI.py
 
