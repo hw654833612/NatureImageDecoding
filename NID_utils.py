@@ -172,7 +172,7 @@ def GRU_classifier(x,y,n_inputs,n_hidden_units,n_steps,n_classes,number_of_layer
     cost = -tf.reduce_mean(tf.reduce_sum(y * tf.log(pred),axis=1))
     return pred, cost
 
-def CNN_classifier(x,y,n_steps, n_inputs, n_classes, is_training=False):
+def CNN_classifier(x,y,n_steps, n_inputs, n_classes, is_training=False):  # 1d-CNN
     X_in = tf.reshape(x, [-1, n_steps, n_inputs, 1]) # X_in ==> (100 batch, 5 steps, 2000 hidden,1)
     with tf.variable_scope('cnn'):
          conv1 = tf.layers.conv2d(inputs=X_in, filters=256, kernel_size=(5, 1), padding='same', activation=tf.nn.relu)
